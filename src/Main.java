@@ -1,5 +1,6 @@
 import LLDpatterns.Factory.Factory;
 import LLDpatterns.Singleton.Singleton;
+import LLDpatterns.Strategy.Strategy;
 import OOPs.Abstraction;
 import OOPs.Encapsulation;
 import OOPs.Inheritance;
@@ -8,7 +9,6 @@ import OOPs.Polymorphism;
 void main() {
 
     //OOPs
-
     System.out.println("===============Encapsulation=================");
     Encapsulation.execute();
 
@@ -27,4 +27,7 @@ void main() {
 
     System.out.println("===============Factory=================");
     Factory.execute();
+
+    System.out.println("===============Strategy=================");
+    Strategy.execute();
 }

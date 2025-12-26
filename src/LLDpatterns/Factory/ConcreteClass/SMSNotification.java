@@ -1,4 +1,4 @@
-package LLDpatterns.Factory.Concrete;
+package LLDpatterns.Factory.ConcreteClass;
 
 import LLDpatterns.Factory.Notification;
 

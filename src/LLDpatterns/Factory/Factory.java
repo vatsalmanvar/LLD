@@ -11,6 +11,8 @@ public class Factory {
 }
 
 /*
+Definition
+-Encapsulates object creation logic and hides the concrete class from the client.
 
 Problem Without Factory (Why We Need It)
 ❌ Bad Design (Tight Coupling)

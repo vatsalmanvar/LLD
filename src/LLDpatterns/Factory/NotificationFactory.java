@@ -1,7 +1,7 @@
 package LLDpatterns.Factory;
 
-import LLDpatterns.Factory.Concrete.EmailNotification;
-import LLDpatterns.Factory.Concrete.SMSNotification;
+import LLDpatterns.Factory.ConcreteClass.EmailNotification;
+import LLDpatterns.Factory.ConcreteClass.SMSNotification;
 
 public class NotificationFactory {
 
