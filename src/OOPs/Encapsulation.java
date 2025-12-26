@@ -21,10 +21,11 @@ public class Encapsulation {
     // balance property
 
     //helper method to run the encapsulation
-    public void execute(){
-        System.out.println("Balance is: " + getBalance());
+    public static void execute(){
+        Encapsulation obj = new Encapsulation();
+        System.out.println("Balance is: " + obj.getBalance());
         System.out.println("Deposit -> 1000");
-        deposit(1000);
-        System.out.println("Balance is: " + getBalance());
+        obj.deposit(1000);
+        System.out.println("Balance is: " + obj.getBalance());
     }
 }

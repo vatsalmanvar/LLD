@@ -4,7 +4,7 @@ public class Abstraction {
     //Means Exposing what is necessary and hiding the implementation details
     //HOW-> can be done using interfaces or abstract classes
 
-    public class AbstractionViaInterface{
+    public static class AbstractionViaInterface{
         public interface Payment{
             public void pay(double amount);
         }
@@ -16,7 +16,7 @@ public class Abstraction {
         }
     }
 
-    public class AbstractionViaAbstractClass{
+    public static class AbstractionViaAbstractClass{
         public abstract class Vehicle{
             public abstract void start();
             public void fuel(){
@@ -31,7 +31,7 @@ public class Abstraction {
         }
     }
 
-    public void execute(){
+    public static void execute(){
         // via interface
         AbstractionViaInterface abstractionViaInterface = new AbstractionViaInterface();
         AbstractionViaInterface.PaymentViaInterface demoClass1 = abstractionViaInterface.new PaymentViaInterface();

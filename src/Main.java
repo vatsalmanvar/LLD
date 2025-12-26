@@ -1,22 +1,30 @@
+import LLDpatterns.Factory.Factory;
+import LLDpatterns.Singleton.Singleton;
 import OOPs.Abstraction;
 import OOPs.Encapsulation;
 import OOPs.Inheritance;
 import OOPs.Polymorphism;
 
 void main() {
+
+    //OOPs
+
     System.out.println("===============Encapsulation=================");
-    Encapsulation encapsulation = new Encapsulation();
-    encapsulation.execute();
+    Encapsulation.execute();
 
     System.out.println("===============Abstraction=================");
-    Abstraction abstraction = new Abstraction();
-    abstraction.execute();
+    Abstraction.execute();
 
     System.out.println("===============Inheritance=================");
-    Inheritance inheritance = new Inheritance();
-    inheritance.execute();
+    Inheritance.execute();
 
     System.out.println("===============Polymorphism=================");
-    Polymorphism polymorphism = new Polymorphism();
-    polymorphism.execute();
+    Polymorphism.execute();
+
+    //LLDs patterns
+    System.out.println("===============Singleton=================");
+    Singleton.execute();
+
+    System.out.println("===============Factory=================");
+    Factory.execute();
 }

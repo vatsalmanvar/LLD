@@ -6,7 +6,7 @@ public class Polymorphism {
 
     //2 types
     //Compile time polymorphism - Overloading
-    public class OverloadingPolymorphism {
+    public static class OverloadingPolymorphism {
         public int sum(int a, int b){
             System.out.println("(int) Sum of a and b is " + (a + b));
             return a+b;
@@ -18,7 +18,7 @@ public class Polymorphism {
     }
 
     //Runtime polymorphism - overriding
-    public class OverridingPolymorphism{
+    public static class OverridingPolymorphism{
         public static class Animal{
             public void makeSound(){
                 System.out.println("Animal Sound");
@@ -33,7 +33,7 @@ public class Polymorphism {
         }
     }
 
-    public void execute(){
+    public static void execute(){
         OverloadingPolymorphism overload = new OverloadingPolymorphism();
         overload.sum(1, 2);
         overload.sum(3.5, 4.1);
