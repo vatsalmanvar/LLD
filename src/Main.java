@@ -1,3 +1,4 @@
+import LLDpatterns.Builder.Builder;
 import LLDpatterns.Factory.Factory;
 import LLDpatterns.Observer.ObserverExecute;
 import LLDpatterns.Singleton.Singleton;
@@ -38,4 +39,7 @@ void main() {
 
     System.out.println("===============State=================");
     State.execute();
+
+    System.out.println("===============Builder=================");
+    Builder.execute();
 }
