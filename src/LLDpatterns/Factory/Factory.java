@@ -58,11 +58,12 @@ Uses conditionals
 Instead of one factory class, each subclass decides object creation.
 
 Example:
+---------------------------------------
 Product
 interface Transport {
     void deliver();
 }
-
+---------------------------------------
 Concrete Products
 class Truck implements Transport {
     public void deliver() {
@@ -75,7 +76,7 @@ class Ship implements Transport {
         System.out.println("Deliver by sea");
     }
 }
-
+---------------------------------------
 Creator (Abstract Factory Method)
 abstract class Logistics {
 
@@ -86,7 +87,7 @@ abstract class Logistics {
 
     protected abstract Transport createTransport();
 }
-
+---------------------------------------
 Concrete Creators
 class RoadLogistics extends Logistics {
     protected Transport createTransport() {
@@ -99,7 +100,7 @@ class SeaLogistics extends Logistics {
         return new Ship();
     }
 }
-
+---------------------------------------
 Client
 public class Client {
     public static void main(String[] args) {
@@ -107,7 +108,7 @@ public class Client {
         logistics.planDelivery();
     }
 }
-
+---------------------------------------
 ✔ Advantage:
 No if-else
 True polymorphism

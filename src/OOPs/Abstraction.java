@@ -34,12 +34,12 @@ public class Abstraction {
     public static void execute(){
         // via interface
         AbstractionViaInterface abstractionViaInterface = new AbstractionViaInterface();
-        AbstractionViaInterface.PaymentViaInterface demoClass1 = abstractionViaInterface.new PaymentViaInterface();
+        AbstractionViaInterface.Payment demoClass1 = abstractionViaInterface.new PaymentViaInterface();
         demoClass1.pay(1000);
 
         // via abstract class
         AbstractionViaAbstractClass abstractionViaAbstractClass = new AbstractionViaAbstractClass();
-        AbstractionViaAbstractClass.Car demoClass2 = abstractionViaAbstractClass.new Car();
+        AbstractionViaAbstractClass.Vehicle demoClass2 = abstractionViaAbstractClass.new Car();
         demoClass2.start();
         demoClass2.fuel();
     }

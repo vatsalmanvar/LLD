@@ -1,4 +1,5 @@
 import LLDpatterns.Factory.Factory;
+import LLDpatterns.Observer.ObserverExecute;
 import LLDpatterns.Singleton.Singleton;
 import LLDpatterns.Strategy.Strategy;
 import OOPs.Abstraction;
@@ -30,4 +31,7 @@ void main() {
 
     System.out.println("===============Strategy=================");
     Strategy.execute();
+
+    System.out.println("===============Observer=================");
+    ObserverExecute.execute();
 }

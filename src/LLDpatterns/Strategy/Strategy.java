@@ -24,7 +24,7 @@ public class Strategy {
 
 Definition
 -Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
- The algorithm can vary independently from the clients that use it.
+ The algorithm is very independently of the clients that use it.
 
 Problem It Solves
 When you have:
