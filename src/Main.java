@@ -1,9 +1,10 @@
-import LLDpatterns.Builder.Builder;
-import LLDpatterns.Factory.Factory;
-import LLDpatterns.Observer.ObserverExecute;
-import LLDpatterns.Singleton.Singleton;
-import LLDpatterns.State.State;
-import LLDpatterns.Strategy.Strategy;
+import LLDProblems.PrakingLot.ParkingLotApplication;
+import LLDPatterns.Builder.Builder;
+import LLDPatterns.Factory.Factory;
+import LLDPatterns.Observer.ObserverExecute;
+import LLDPatterns.Singleton.Singleton;
+import LLDPatterns.State.State;
+import LLDPatterns.Strategy.Strategy;
 import OOPs.Abstraction;
 import OOPs.Encapsulation;
 import OOPs.Inheritance;
@@ -24,6 +25,7 @@ void main() {
     System.out.println("===============Polymorphism=================");
     Polymorphism.execute();
 
+    //______________________________________________________________________________________________________
     //LLDs patterns
     System.out.println("===============Singleton=================");
     Singleton.execute();
@@ -42,4 +44,10 @@ void main() {
 
     System.out.println("===============Builder=================");
     Builder.execute();
+
+    //______________________________________________________________________________________________________
+    //LLDs problems
+    System.out.println("===============ParkingLot=================");
+    ParkingLotApplication.execute();
+
 }

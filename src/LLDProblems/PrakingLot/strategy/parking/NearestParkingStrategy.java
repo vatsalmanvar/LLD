@@ -1,0 +1,15 @@
+package LLDProblems.PrakingLot.strategy.parking;
+
+import LLDProblems.PrakingLot.entities.ParkingFloor;
+import LLDProblems.PrakingLot.entities.ParkingSpot;
+import LLDProblems.PrakingLot.vehicle.Vehicle;
+import LLDProblems.PrakingLot.vehicle.VehicleType;
+
+import java.util.List;
+
+public class NearestParkingStrategy implements ParkingStrategy{
+    @Override
+    public ParkingSpot findSpot(List<ParkingFloor> floors, Vehicle vehicle){
+        return new ParkingSpot("1-Nearest", VehicleType.MEDIUM);
+    }
+}
