@@ -5,6 +5,7 @@ import LLDPatterns.Observer.ObserverExecute;
 import LLDPatterns.Singleton.Singleton;
 import LLDPatterns.State.State;
 import LLDPatterns.Strategy.Strategy;
+import LLDProblems.StackOverFlow.StackOverFlowApplication;
 import OOPs.Abstraction;
 import OOPs.Encapsulation;
 import OOPs.Inheritance;
@@ -49,5 +50,8 @@ void main() {
     //LLDs problems
     System.out.println("===============ParkingLot=================");
     ParkingLotApplication.execute();
+
+    System.out.println("===============StackOverFlow=================");
+    StackOverFlowApplication.execute();
 
 }

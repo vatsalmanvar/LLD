@@ -9,7 +9,7 @@ import java.util.List;
 public class WeatherStation implements Subject {
 
     private List<Observer> observers = new ArrayList<Observer>();
-    private float temparature;
+    private float temperature;
 
     public void registerObserver(Observer observer){
         observers.add(observer);
@@ -25,8 +25,8 @@ public class WeatherStation implements Subject {
         }
     }
 
-    public void setTemparature(float temparature){
-        this.temparature = temparature;
-        notifyAllObserver(temparature);
+    public void setTemparature(float temperature){
+        this.temperature = temperature;
+        notifyAllObserver(temperature);
     }
 }
