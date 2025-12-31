@@ -1,6 +1,6 @@
-package LLDProblems.StackOverFlow.Strategy;
+package LLDProblems.StackOverFlow.strategy;
 
-import LLDProblems.StackOverFlow.Entities.Question;
+import LLDProblems.StackOverFlow.entities.Question;
 
 import java.util.List;
 

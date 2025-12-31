@@ -1,6 +1,6 @@
-package LLDProblems.StackOverFlow.Entities;
+package LLDProblems.StackOverFlow.entities;
 
-import LLDProblems.StackOverFlow.Observer.UserObserver;
+import LLDProblems.StackOverFlow.observer.UserObserver;
 
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;

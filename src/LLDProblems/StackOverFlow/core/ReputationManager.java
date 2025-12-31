@@ -1,4 +1,4 @@
-package LLDProblems.StackOverFlow.Core;
+package LLDProblems.StackOverFlow.core;
 
 public class ReputationManager {
 

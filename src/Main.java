@@ -6,6 +6,7 @@ import LLDPatterns.Singleton.Singleton;
 import LLDPatterns.State.State;
 import LLDPatterns.Strategy.Strategy;
 import LLDProblems.StackOverFlow.StackOverFlowApplication;
+import LLDProblems.Tictactoe.TicTacToeApplication;
 import OOPs.Abstraction;
 import OOPs.Encapsulation;
 import OOPs.Inheritance;
@@ -49,9 +50,12 @@ void main() {
     //______________________________________________________________________________________________________
     //LLDs problems
     System.out.println("===============ParkingLot=================");
-    ParkingLotApplication.execute();
+    ParkingLotApplication.main(null);
 
     System.out.println("===============StackOverFlow=================");
-    StackOverFlowApplication.execute();
+    StackOverFlowApplication.main(null);
+
+    System.out.println("===============Tic Tac Toe=================");
+    TicTacToeApplication.main(null);
 
 }

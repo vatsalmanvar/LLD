@@ -1,7 +1,7 @@
 package LLDProblems.StackOverFlow;
 
-import LLDProblems.StackOverFlow.Core.ReputationManager;
-import LLDProblems.StackOverFlow.Entities.*;
+import LLDProblems.StackOverFlow.core.ReputationManager;
+import LLDProblems.StackOverFlow.entities.*;
 
 import java.util.ArrayList;
 import java.util.List;

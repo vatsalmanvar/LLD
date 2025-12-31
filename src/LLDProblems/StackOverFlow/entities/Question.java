@@ -1,4 +1,4 @@
-package LLDProblems.StackOverFlow.Entities;
+package LLDProblems.StackOverFlow.entities;
 
 import java.util.ArrayList;
 import java.util.List;

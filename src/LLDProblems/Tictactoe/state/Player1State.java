@@ -1,7 +1,5 @@
 package LLDProblems.Tictactoe.state;
 
-import LLDProblems.StackOverFlow.Entities.Post;
-
 public class Player1State implements GameState{
     public void next(StateContext context){
         //decide where to move

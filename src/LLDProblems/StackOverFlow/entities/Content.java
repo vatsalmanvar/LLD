@@ -1,4 +1,4 @@
-package LLDProblems.StackOverFlow.Entities;
+package LLDProblems.StackOverFlow.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

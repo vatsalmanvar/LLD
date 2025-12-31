@@ -1,9 +1,9 @@
 package LLDProblems.StackOverFlow;
 
-import LLDProblems.StackOverFlow.Entities.*;
+import LLDProblems.StackOverFlow.entities.*;
 
 public class StackOverFlowApplication {
-    public static void execute(){
+    public static void main(String args[]){
 
         StackOverFlow stackOverFlow = StackOverFlow.getInstance();
 

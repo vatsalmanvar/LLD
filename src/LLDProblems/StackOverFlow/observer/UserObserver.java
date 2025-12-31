@@ -1,4 +1,4 @@
-package LLDProblems.StackOverFlow.Observer;
+package LLDProblems.StackOverFlow.observer;
 
 public class UserObserver implements PostObserver{
 

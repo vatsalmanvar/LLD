@@ -1,4 +1,4 @@
-package LLDProblems.StackOverFlow.Entities;
+package LLDProblems.StackOverFlow.entities;
 
 public class Answer extends Post{
     public boolean isAccepted = false;

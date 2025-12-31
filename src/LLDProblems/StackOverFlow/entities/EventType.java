@@ -1,4 +1,4 @@
-package LLDProblems.StackOverFlow.Entities;
+package LLDProblems.StackOverFlow.entities;
 
 public enum EventType {
     UPVOTEQUESTION,

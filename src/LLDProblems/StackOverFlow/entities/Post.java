@@ -1,6 +1,6 @@
-package LLDProblems.StackOverFlow.Entities;
+package LLDProblems.StackOverFlow.entities;
 
-import LLDProblems.StackOverFlow.Observer.PostObserver;
+import LLDProblems.StackOverFlow.observer.PostObserver;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

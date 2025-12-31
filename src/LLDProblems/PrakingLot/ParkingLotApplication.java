@@ -10,7 +10,7 @@ import LLDProblems.PrakingLot.vehicle.Vehicle;
 import LLDProblems.PrakingLot.vehicle.VehicleType;
 
 public class ParkingLotApplication {
-    public static void execute(){
+    public static void main(String args[]){
         ParkingLot parkinglot = ParkingLot.getInstance();
 
         ParkingSpot spot1 = new ParkingSpot("spot1", VehicleType.MEDIUM);
