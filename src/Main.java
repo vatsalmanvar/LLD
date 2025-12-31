@@ -7,6 +7,7 @@ import LLDPatterns.State.State;
 import LLDPatterns.Strategy.Strategy;
 import LLDProblems.StackOverFlow.StackOverFlowApplication;
 import LLDProblems.Tictactoe.TicTacToeApplication;
+import LLDProblems.VendingMachine.VendingMachineApplication;
 import OOPs.Abstraction;
 import OOPs.Encapsulation;
 import OOPs.Inheritance;
@@ -57,5 +58,8 @@ void main() {
 
     System.out.println("===============Tic Tac Toe=================");
     TicTacToeApplication.main(null);
+
+    System.out.println("===============Vending Machine=================");
+    VendingMachineApplication.main(null);
 
 }
