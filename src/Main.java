@@ -1,3 +1,4 @@
+import LLDProblems.LoggingFramework.LoggingFrameWorkMain;
 import LLDProblems.PrakingLot.ParkingLotApplication;
 import LLDPatterns.Builder.Builder;
 import LLDPatterns.Factory.Factory;
@@ -61,5 +62,8 @@ void main() {
 
     System.out.println("===============Vending Machine=================");
     VendingMachineApplication.main(null);
+
+    System.out.println("===============Logging FrameWork=================");
+    LoggingFrameWorkMain.main(null);
 
 }
