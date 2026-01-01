@@ -2,6 +2,7 @@ package LLDProblems.LoggingFramework;
 
 import LLDProblems.LoggingFramework.entities.LogLevel;
 import LLDProblems.LoggingFramework.entities.LogMessage;
+import LLDProblems.LoggingFramework.entities.LoggerConfig;
 import LLDProblems.LoggingFramework.strategy.appender.LogAppender;
 
 public class DefaultLogger implements Logger{

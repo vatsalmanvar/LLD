@@ -1,8 +1,6 @@
-package LLDProblems.LoggingFramework;
+package LLDProblems.LoggingFramework.entities;
 
-import LLDProblems.LoggingFramework.entities.LogLevel;
 import LLDProblems.LoggingFramework.strategy.appender.LogAppender;
-import LLDProblems.LoggingFramework.strategy.formatter.LogFormatter;
 
 import java.util.List;
 

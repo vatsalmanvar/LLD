@@ -1,6 +1,7 @@
 package LLDProblems.LoggingFramework;
 
 import LLDProblems.LoggingFramework.entities.LogLevel;
+import LLDProblems.LoggingFramework.entities.LoggerConfig;
 import LLDProblems.LoggingFramework.strategy.appender.ConsoleAppender;
 import LLDProblems.LoggingFramework.strategy.appender.LogAppender;
 import LLDProblems.LoggingFramework.strategy.formatter.LogFormatter;
