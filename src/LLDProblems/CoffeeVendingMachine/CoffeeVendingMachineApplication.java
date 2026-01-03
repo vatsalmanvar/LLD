@@ -1,6 +1,24 @@
 package LLDProblems.CoffeeVendingMachine;
 
+import LLDProblems.CoffeeVendingMachine.entities.CoffeeType;
+import LLDProblems.CoffeeVendingMachine.entities.ToppingType;
+import LLDProblems.CoffeeVendingMachine.strategy.CardPaymentStrategy;
+import LLDProblems.CoffeeVendingMachine.strategy.PaymentStrategy;
+
+import java.util.List;
+
 public class CoffeeVendingMachineApplication {
+
+    public static void main(String args[]){
+        PaymentStrategy paymentStrategy = new CardPaymentStrategy();
+        CoffeeVendingMachine coffeeVendingMachine = CoffeeVendingMachine.getInstance(paymentStrategy);
+        coffeeVendingMachine.selectCoffee(CoffeeType.ESPRESSO);
+        coffeeVendingMachine.addTopping(List.of(ToppingType.EXTRA_SUGAR));
+        coffeeVendingMachine.pay();
+        coffeeVendingMachine.dispense();
+    }
+
+
 }
 
 /*
@@ -20,6 +38,32 @@ Extensibility: Easy to add new coffee types or payment methods.
 
 strategy for payment
 decorator for coffee making
+state as a vending machine states
+
+Entities:
+
+Coffee
+BaseCoffee
+Decorator
+concrete Decorator
+
+Payment
+Concrete payment
+
+state
+concrete state
+
+Context class
+
+Inventory (Singleton)
+Ingredient
+Concrete Ingredient
+
+Recipe
+
+Main class with all the functionality
+Application class
+
 
 
 
