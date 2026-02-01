@@ -43,6 +43,9 @@ public class Polymorphism {
 
         OverridingPolymorphism.Cat animal2 = new OverridingPolymorphism.Cat();
         animal2.makeSound(); // "Cat Sound - meow"
+
+        OverridingPolymorphism.Animal animal3 = new OverridingPolymorphism.Cat();
+        animal3.makeSound(); // "Cat Sound - meow"
     }
 
 }
